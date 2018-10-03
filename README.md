@@ -1,6 +1,11 @@
 # container-optimizer-demo
 Java application to use in presentation about optimization and performance for containers applications
 
+# Presentation
+
+- [Performance Tips for Container Applications - PDF](Performance%20Tips%20for%20container%20applications.pdf)
+- [Performance Tips for Container Applications - Power Point](Performance%20Tips%20for%20container%20applications.pptx)
+
 # Pre-requisites
 
 - Java JDK 8
