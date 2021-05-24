@@ -3,8 +3,15 @@ Java application to use in presentation about optimization and performance for c
 
 # Presentation
 
+## Slides 
+
 - [Performance Tips for Container Applications - PDF](Performance%20Tips%20for%20container%20applications.pdf)
 - [Performance Tips for Container Applications - Power Point](Performance%20Tips%20for%20container%20applications.pptx)
+
+## Article
+
+- [Medium - Performance Tips for Container Applications](https://medium.com/farfetch-tech-blog/performance-tips-for-container-applications-3de605b43ec6)
+- [Farfetch Tech Blog - Performance Tips for Container Applications](https://www.farfetchtechblog.com/en/blog/post/performance-tips-for-container-applications/)
 
 # Pre-requisites
 
