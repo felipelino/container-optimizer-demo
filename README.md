@@ -32,6 +32,12 @@ docker build -t demo:1.0.0 .
 docker run -it --ulimit nofile=128 --memory 1000MB --cpus 0.5 -e "JAVA_OPTS=-Xms300m -Xmx712 -DcorePoolSize=100 -DmaxPoolSize=120 -DqueueCapacity=300" -p 8080:8080  --name demo demo:1.0.0 
 ```
 
+## Other Useful JVM Params
+
+```
+-XX:+UnlockExperimentalVMOptions, -XX:+UseCGroupMemoryLimitForHeap, -XX:MaxRAMFraction=1
+```
+
 # API Definition
 
 ## Status
@@ -150,3 +156,7 @@ curl -v -X POST \
 	]
 }
 ```
+
+# References
+
+* [Java & containers: what I wish I knew before I used it](https://eldermoraes.com/java-containers-what-i-wish-i-knew-before-i-used-it/)
