@@ -23,13 +23,13 @@ Java application to use in presentation about optimization and performance for c
 
 ```
 mvn clean package
-docker build -t demo:1.0.0 .
+docker build -t demo:1.1.0 .
 ```
 
 # Run With Docker
 
 ```
-docker run -it --ulimit nofile=128 --memory 1000MB --cpus 0.5 -e "JAVA_OPTS=-Xms300m -Xmx712 -DcorePoolSize=100 -DmaxPoolSize=120 -DqueueCapacity=300" -p 8080:8080  --name demo demo:1.0.0 
+docker run -it --ulimit nofile=128 --memory 1000MB --cpus 0.5 -e "JAVA_OPTS=-Xms300m -Xmx712m -DcorePoolSize=100 -DmaxPoolSize=120 -DqueueCapacity=300" -p 8080:8080  --name demo demo:1.1.0 
 ```
 
 ## Other Useful JVM Params
